@@ -10,4 +10,8 @@ go run ./cmd/syslog-send/main.go --address="127.0.0.1:514" --transport="udp" --f
 
 
 
+# vendor
 
+```
+go mod vendor
+```
