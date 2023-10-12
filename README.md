@@ -1,6 +1,6 @@
 # intro
 
-Forked from here: [github.com/cirocosta/syslog-send)](https://github.com/cirocosta/syslog-send).
+Forked from here: [github.com/cirocosta/syslog-send](https://github.com/cirocosta/syslog-send).
 
 Customize certain configurations and utilize `go mod vendor` instead.
 
