@@ -1,0 +1,8 @@
+version: '1.0'
+services:
+  rsyslog:
+    container_name: 'rsyslog'
+    build: './image'
+    ports:
+      - '514:514/udp'
+      - '514:514/tcp'
