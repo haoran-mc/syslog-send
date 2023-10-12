@@ -1,7 +1,7 @@
 all: install
 
 run:
-	docker-compose up --build
+	docker-compose up --build -d
 
 install:
 	go install -v ./cmd/syslog-send
@@ -11,3 +11,6 @@ fmt:
 
 test:
 	go test ./... -v
+
+build:
+	go build -o syslog-send cmd/syslog-send/main.go
