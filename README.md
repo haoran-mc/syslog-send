@@ -30,6 +30,8 @@ First, create the `rsyslog` server:
 make run
 ```
 
+## syslog client
+
 Second, syslog-cli send message:
 
 ```sh
@@ -65,5 +67,8 @@ Help Options:
 ```
 
 ```sh
-./syslog-send --address="127.0.0.1:514" --transport="udp" --facility="local1" --severity="notice"
+./syslog-send --address="127.0.0.1:514" \
+                         --transport="udp" \
+                         --facility="local1" \
+                         --severity="notice"
 ```
